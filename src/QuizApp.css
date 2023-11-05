@@ -1,0 +1,72 @@
+/* src/QuizApp.css */
+.quiz-container {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  background-color: #f8f8f8;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.progress-bar {
+  background-color: #ddd;
+  border-radius: 5px;
+  height: 10px;
+  margin-bottom: 10px;
+}
+
+.progress {
+  background-color: #4caf50;
+  border-radius: 5px;
+  height: 100%;
+}
+
+.question-section, .score-section {
+  margin-bottom: 20px;
+}
+
+.option {
+  margin-bottom: 10px;
+}
+
+
+
+.submit-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+  background-color: #0056b3;
+}
+
+.submit-button:disabled {
+  background-color: #ddd;
+  cursor: not-allowed;
+}
+
+
+
+h1{
+  display: flex;
+  justify-content: center;
+}
+
+.time-remaining {
+  font-size: 18px;
+  margin-bottom: 10px;
+  text-align: right;
+}
+
+
+@media (max-width: 768px) {
+  .time-remaining {
+    text-align: left; /* Reset text alignment for mobile devices */
+  }
+}
